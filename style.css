@@ -1,96 +1,115 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
 body {
+  font-family: 'Arial', sans-serif;
+  color: #0a0a23;
+  background: #f7c731;
   margin: 0;
+  padding: 0;
+}
+
+.header-section {
   display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f7c731;
+  color: #0a0a23;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+.intro {
+  max-width: 50%;
 }
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+.name {
+  color: #0a0a23;
+}
+
+.photo img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  border: 2px solid #a29bfe;
+}
+
+.navbar {
   text-align: center;
+  padding: 10px;
+  background-color: #0a0a23;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vanilla:hover {
-  filter: drop-shadow(0 0 2em #f7df1eaa);
+.nav-link {
+  color: #f7c731;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
 }
 
-.card {
-  padding: 2em;
+.nav-link:hover {
+  color: #a29bfe;
 }
 
-.read-the-docs {
-  color: #888;
+.overview, .contact {
+  padding: 40px;
+  text-align: center;
+  color: #0a0a23;
+  background: white;
+  margin: 20px 0;
+  border-radius: 10px;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+.skills {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.skill {
+  text-align: center;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skill img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.skill progress {
+  width: 80%; /* Make progress bar fit proportionally */
+  height: 15px; /* Adjust the height of the progress bar */
+  margin-bottom: 5px; /* Add some space between the progress bar and the text */
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.contact {
+  padding: 40px;
+  text-align: center;
+  background-color: #f7c731;
+  color: #0a0a23;
+  border-radius: 10px;
+}
+
+.contact-links a {
+  color: #0a0a23;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.contact-links a:hover {
+  color: #6c5ce7;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background: #1b1b38;
+  color: white;
 }
