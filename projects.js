@@ -6,11 +6,11 @@ const projects = {
         languages: ["HTML", "CSS", "JavaScript"],
         githubLink: "https://github.com/Lusizo/Portfolio",
         liveLink: "https://lusizo.github.io/Portfolio",
-        image: "/mnt/data/image.png"
+        image: "/public/Images/overviewimage.png"
     },
     2: {
         id: 2,
-        title: "Cryptway Home",
+        title: "Nine Soldiers",
         readme: "This project is a website that sells solar geysers. It's built with Tailwind CSS and JavaScript. Check out the detailed setup instructions, features, and technologies used below.",
         languages: ["HTML", "Tailwind CSS", "JavaScript"],
         githubLink: "https://github.com/Lusizo/Cryptway",
