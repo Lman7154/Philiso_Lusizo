@@ -15,8 +15,8 @@ document.querySelector('#app').innerHTML = `
 
     <nav class="navbar">
         <a href="/index.html" class="nav-link home-button">Home</a>
-        <a href="/projects.html" class="nav-link projects-button">Projects</a>
-        <a href="/cv.html" class="nav-link cv-button">CV</a>
+        <a href="/src/projects/projects.html" class="nav-link projects-button">Projects</a>
+        <a href="/src/cv/cv.html" class="nav-link cv-button">CV</a>
     </nav>
 
     <section class="overview">
