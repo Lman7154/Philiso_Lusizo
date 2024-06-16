@@ -4,16 +4,64 @@ const projects = {
     1: {
         id: 1,
         title: "Lusizo Portfolio",
-        readme: "This project involves creating a portfolio written in HTML, CSS, and JavaScript. It showcases web development skills and is highly inspired by Ajin Gupta. You can find detailed setup instructions, features, and technologies used below.",
+        readme: `
+        <p>The portfolio showcases projects, skills, and professional experience. The website is designed to be responsive and user-friendly, providing visitors with a seamless browsing experience on any device.</p>
+        <p>Features:</p>
+        <ul>
+            <li>Responsive Design: Ensures the portfolio looks great on devices of all sizes.</li>
+            <li>Dynamic Project Display: Showcases various projects with descriptions and images.</li>
+            <li>Contact Information: Includes contact details and links to social media profiles.</li>
+            <li>Clean UI/UX: Simple and intuitive user interface for easy navigation.</li>
+            <li> Portfolio Section: Displays selected works with images and descriptions.</li>
+        </ul>
+        <p>Technologies Used:</p>
+        <ul>
+            <li> HTML: Structure of the website.</li>
+            <li>CSS: Styling the website.</li>
+            <li>JavaScript: Adding interactive elements.</li>
+            <li>Vite: Build tool for frontend development.</li>
+            <li>Vercel: Hosting and deployment of the website.</li>
+        </ul>
+        <p>Setup Instructions:</p>
+        <ul>
+            <li>Node.js</li>
+            <li>npm (Node Package Manager)</li>
+        </ul>
+        <p>Usage:</p>
+        <ul>
+            <li>Navigating the Portfolio: Browse through different sections like Home, Projects, and CV.</li>
+            <li>Viewing Projects: Click on project images or links to view detailed descriptions and technologies used.</li>
+             <li>Contact Information: Use the contact details to reach out via email or social media.</li>
+        </ul>
+        <p>This was my first web development project and is highly inspired by Ajin Gupta portfolio.</p>`,
         languages: ["HTML", "CSS", "JavaScript"],
         githubLink: "https://github.com/Lman7154/Philiso_Lusizo",
-        liveLink: "https://lusizo.github.io/Portfolio",
+        liveLink: "https://philiso-lusizo.vercel.app/",
         image: "/Images/overviewimage.png", //When deploying to Vercel, static files should be placed in a public directory at the root level, and then they can be accessed directly
     },
     2: {
         id: 2,
         title: "Nine Soldiers",
-        readme: "This project is a website that sells solar geysers. It's built with Tailwind CSS and JavaScript. Check out the detailed setup instructions, features, and technologies used below.",
+        readme: `
+        <p>The portfolio showcases projects, skills, and professional experience.</p>
+        <p>Features:</p>
+        <ul>
+            <li>Responsive Design</li>
+            <li>Dynamic Project Display</li>
+            <li>Contact Information</li>
+        </ul>
+        <p>Technologies Used:</p>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+        <p>Setup Instructions:</p>
+        <ul>
+            <li>Node.js</li>
+            <li>npm</li>
+        </ul>
+        <p>It showcases web development skills and is highly inspired by Ajin Gupta.</p>`,
         languages: ["HTML", "Tailwind CSS", "JavaScript"],
         githubLink: "https://github.com/Lusizo/Cryptway",
         liveLink: "https://lusizo.github.io/Cryptway",
@@ -22,7 +70,26 @@ const projects = {
     3: {
         id: 3,
         title: "Q2A Poll plugin",
-        readme: "This plugin for Q2A adds polls to questions and is written in PHP and JavaScript. Explore the detailed setup instructions, features, and technologies used below.",
+        readme: `
+        <p>The portfolio showcases projects, skills, and professional experience.</p>
+        <p>Features:</p>
+        <ul>
+            <li>Responsive Design</li>
+            <li>Dynamic Project Display</li>
+            <li>Contact Information</li>
+        </ul>
+        <p>Technologies Used:</p>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+        <p>Setup Instructions:</p>
+        <ul>
+            <li>Node.js</li>
+            <li>npm</li>
+        </ul>
+        <p>It showcases web development skills and is highly inspired by Ajin Gupta.</p>`,
         languages: ["PHP", "JavaScript"],
         githubLink: "https://github.com/Lusizo/Q2A-Poll-Plugin",
         liveLink: "https://lusizo.github.io/Q2A-Poll-Plugin",
