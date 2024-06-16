@@ -1,10 +1,12 @@
+import "/src/projects/projects.css"
+
 const projects = {
     1: {
         id: 1,
         title: "Lusizo Portfolio",
         readme: "This project involves creating a portfolio written in HTML, CSS, and JavaScript. It showcases web development skills and is highly inspired by Ajin Gupta. You can find detailed setup instructions, features, and technologies used below.",
         languages: ["HTML", "CSS", "JavaScript"],
-        githubLink: "https://github.com/Lusizo/Portfolio",
+        githubLink: "https://github.com/Lman7154/Philiso_Lusizo",
         liveLink: "https://lusizo.github.io/Portfolio",
         image: "/public/Images/overviewimage.png"
     },
