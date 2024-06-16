@@ -8,7 +8,7 @@ const projects = {
         languages: ["HTML", "CSS", "JavaScript"],
         githubLink: "https://github.com/Lman7154/Philiso_Lusizo",
         liveLink: "https://lusizo.github.io/Portfolio",
-        image: "https://philiso-lusizo.vercel.app/public/Images/testing image modal rendering in vercel 3.png",
+        image: "/Images/testing image modal rendering in vercel 2.png",
     },
     2: {
         id: 2,
@@ -17,7 +17,7 @@ const projects = {
         languages: ["HTML", "Tailwind CSS", "JavaScript"],
         githubLink: "https://github.com/Lusizo/Cryptway",
         liveLink: "https://lusizo.github.io/Cryptway",
-        image: "https://philiso-lusizo.vercel.app/public/Images/testing image modal rendering in vercel 3.png",
+        image: "/Images/testing image modal rendering in vercel 3.png",
     },
     3: {
         id: 3,
@@ -26,13 +26,14 @@ const projects = {
         languages: ["PHP", "JavaScript"],
         githubLink: "https://github.com/Lusizo/Q2A-Poll-Plugin",
         liveLink: "https://lusizo.github.io/Q2A-Poll-Plugin",
-        image: "https://philiso-lusizo.vercel.app/public/Images/testing image modal rendering in vercel.png",
+        image: "/Images/testing image modal rendering in vercel.png",
     }
 };
 
 const modal = document.getElementById("project-modal");
 const modalContent = modal.querySelector(".modal-body");
 const closeButton = modal.querySelector(".close-button");
+
 
 document.querySelectorAll(".project").forEach(project => {
     project.addEventListener("click", () => {
@@ -45,8 +46,10 @@ document.querySelectorAll(".project").forEach(project => {
             <h2>${projectDetails.title}</h2>
             <img src="${projectDetails.image}" alt="${projectDetails.title}" class="project-modal-image">
             <div class="languages">${languageButtons}</div>
-            <a href="${projectDetails.githubLink}" class="button">View on GitHub</a>
-            <a href="${projectDetails.liveLink}" class="button">Live Demo</a>
+            <div class="button-container">
+                <a href="${projectDetails.githubLink}" class="button">View on GitHub</a>
+                <a href="${projectDetails.liveLink}" class="button">Live Demo</a>
+            </div>
             <div class="readme">${projectDetails.readme}</div>
         `;
         modal.style.display = "block";
