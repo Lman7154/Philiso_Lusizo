@@ -16,8 +16,9 @@ body {
     background-color: #f7c731;
     color: #333;
     padding: 20px;
-    width: 35%;
+    width: 45%;
     box-sizing: border-box;
+    word-break: break-all;  
 }
 .profile-picture img {
     width: 100%;
@@ -46,7 +47,6 @@ hr {
 .contact a {
     color: #333;
     text-decoration: none;
-    word-break: break-all; /* This line ensures that the text breaks properly */
 }
 .contact a:hover {
     text-decoration: underline;
@@ -135,20 +135,20 @@ hr {
 
 @media (max-width: 200px) {
     .container {
-        flex-direction: column; /* Stack columns vertically */
+        flex-direction: column; 
     }
   
     .left-column,
 
     .right-column {
-        width: 100%; /* Make both columns full width */
+        width: 100%; 
     }
 
     .profile-picture img {
-        max-width: 200px; /* Adjust the size of the profile picture */
+        max-width: 200px; 
     }
 
     .header-section {
-        text-align: center; /* Center align the header section */
+        text-align: center;
     }
 }
