@@ -8,7 +8,7 @@ const projects = {
         languages: ["HTML", "CSS", "JavaScript"],
         githubLink: "https://github.com/Lman7154/Philiso_Lusizo",
         liveLink: "https://lusizo.github.io/Portfolio",
-        image: "/Images/testing image modal rendering in vercel 2.png",
+        image: "/Images/overviewimage.png", //When deploying to Vercel, static files should be placed in a public directory at the root level, and then they can be accessed directly
     },
     2: {
         id: 2,
