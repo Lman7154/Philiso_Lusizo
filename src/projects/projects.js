@@ -8,7 +8,7 @@ const projects = {
         languages: ["HTML", "CSS", "JavaScript"],
         githubLink: "https://github.com/Lman7154/Philiso_Lusizo",
         liveLink: "https://lusizo.github.io/Portfolio",
-        image: "/public/Images/overviewimage.png"
+        image: "/public/Images/testing image modal rendering in vercel 2.png"
     },
     2: {
         id: 2,
@@ -17,7 +17,7 @@ const projects = {
         languages: ["HTML", "Tailwind CSS", "JavaScript"],
         githubLink: "https://github.com/Lusizo/Cryptway",
         liveLink: "https://lusizo.github.io/Cryptway",
-        image: "/mnt/data/image.png"
+        image: "/public/Images/testing image modal rendering in vercel 3.png"
     },
     3: {
         id: 3,
@@ -26,7 +26,7 @@ const projects = {
         languages: ["PHP", "JavaScript"],
         githubLink: "https://github.com/Lusizo/Q2A-Poll-Plugin",
         liveLink: "https://lusizo.github.io/Q2A-Poll-Plugin",
-        image: "/mnt/data/image.png"
+        image: "/public/Images/testing image modal rendering in vercel.png"
     }
 };
 
